@@ -1,92 +1,49 @@
-Overview
-This application is built using the MERN stack (MongoDB, Express, React, Node.js) and is designed to provide a platform for users to access FAQs and take MCQ exams on various subjects. The application features user registration, secure login, and user-specific homepages with access to subject-wise FAQs and MCQs. Admins have the authority to add new questions.
+<h1>Overview</h1>
+<p>This application is built using the MERN stack (MongoDB, Express, React, Node.js) and is designed to provide a platform for users to access FAQs and take MCQ exams on various subjects. The application features user registration, secure login, and user-specific homepages with access to subject-wise FAQs and MCQs. Admins have the authority to add new questions.</p>
 
-Features
-User Registration & Login:
+<h1>Features</h1>
+<h3User Registration & Login:></h3>
 
-New users can register by providing required information and a password.
-Passwords are securely hashed using bcrypt before being stored in the database.
-Registered users can log in using their user ID and password.
-JSON Web Tokens (JWT) are used for authentication and authorization.
-User Homepage:
+<p>*New users can register by providing required information and a password.</p>
+<p>*Passwords are securely hashed using bcrypt before being stored in the database.</p>
+<p>*Registered users can log in using their user ID and password.</p>
+<p>*JSON Web Tokens (JWT) are used for authentication and authorization.</p>
 
-Upon login, users are directed to their homepage which displays information on various subjects such as Python, JavaScript, React, and Express.
-The footer section contains links to different subjects.
-Subject-specific Pages:
+<h3>User Homepage:</h3>
 
-Clicking on a subject link (e.g., Python) takes the user to the respective subject page containing FAQs.
-Each subject page includes an MCQ button that directs users to the MCQ exam page.
-MCQ Exams:
+<p>*Upon login, users are directed to their homepage which displays information on various subjects such as Python, JavaScript, React, and Express.</p>
+<p>*The footer section contains links to different subjects.</p>
 
-Users can solve MCQ questions on the exam page.
-Upon submission, results are displayed with correct answers highlighted in green and incorrect answers in red.
-Admin Panel:
+<h3>Subject-specific Pages:</h3>
 
-Only admins have the authority to add new questions to the database.
-Technologies Used
-Frontend:
+<p>*Clicking on a subject link (e.g., Python) takes the user to the respective subject page containing FAQs.</p>
+<p>Each subject page includes an MCQ button that directs users to the MCQ exam page.</p>
 
-React
-HTML/CSS
-Backend:
+<h3>MCQ Exams:</h3>
 
-Node.js
-Express
-Database:
+<p>*Users can solve MCQ questions on the exam page.</p>
+<p>Upon submission, results are displayed with correct answers highlighted in green and incorrect answers in red.</p>
 
-MongoDB
-Security:
+<h3>Admin Panel:</h3>
 
-bcrypt for password hashing
-JSON Web Tokens (JWT) for authentication and authorization
-Installation
-Clone the repository:
+<p>*Only admins have the authority to add new questions to the database.</p>
 
-sh
-Copy code
-git clone https://github.com/your-username/faq-mcq-application.git
-cd faq-mcq-application
-Install backend dependencies:
+<h1>Technologies Used</h1>
+<h3>#Frontend:</h3>
 
-sh
-Copy code
-cd backend
-npm install
-Install frontend dependencies:
+<p>*React</p>
+<p>*HTML/CSS</p>
 
-sh
-Copy code
-cd ../frontend
-npm install
-Set up environment variables:
+<h3>#Backend:</h3>
 
-Create a .env file in the backend directory.
-Add the following variables:
-makefile
-Copy code
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-Start the backend server:
+<p>*Express</p>
+<p>*Node</p>
 
-sh
-Copy code
-cd backend
-npm start
-Start the frontend server:
+<h3>#Database:</h3>
 
-sh
-Copy code
-cd ../frontend
-npm start
-Usage
-Navigate to http://localhost:3000 to access the application.
-Register as a new user or log in if you already have an account.
-Explore subject pages and take MCQ exams.
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
+<p>*MongoDB</p>
 
-License
-This project is licensed under the MIT License.
+<h3>#Security:</h3>
 
-
-
+<p>*bcrypt for password hashing</p>
+<p>*JSON Web Tokens (JWT) for authentication and authorization</p>
