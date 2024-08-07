@@ -3,11 +3,12 @@
 
 <h1>Features</h1>
 <h3>#User Registration & Login:></h3>
-
-<p>*New users can register by providing required information and a password.</p>
-<p>*Passwords are securely hashed using bcrypt before being stored in the database.</p>
-<p>*Registered users can log in using their user ID and password.</p>
-<p>*JSON Web Tokens (JWT) are used for authentication and authorization.</p>
+<ul>
+  <li>New users can register by providing required information and a password.</li>
+  <li>Passwords are securely hashed using bcrypt before being stored in the database.</li>
+  <li>Registered users can log in using their user ID and password.</li>
+  <li>JSON Web Tokens (JWT) are used for authentication and authorization.</li>
+</ul>
 
 <h3>#User Homepage:</h3>
 
