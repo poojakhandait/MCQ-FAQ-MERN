@@ -11,66 +11,85 @@
 </ul>
 
 <h3>#User Homepage:</h3>
-
-<p>*Upon login, users are directed to their homepage which displays information on various subjects such as Python, JavaScript, React, and Express.</p>
-<p>*The footer section contains links to different subjects.</p>
+<ul>
+  <li>Upon login, users are directed to their homepage which displays information on various subjects such as Python, JavaScript, React, and Express.</li>
+  <li>The footer section contains links to different subjects.</li>
+</ul>
 
 <h3>#Subject-specific Pages:</h3>
-
-<p>*Clicking on a subject link (e.g., Python) takes the user to the respective subject page containing FAQs.</p>
-<p>Each subject page includes an MCQ button that directs users to the MCQ exam page.</p>
+<ul>
+  <li>Clicking on a subject link (e.g., Python) takes the user to the respective subject page containing FAQs.</li>
+  <li>Each subject page includes an MCQ button that directs users to the MCQ exam page.</li>
+</ul>
 
 <h3>#MCQ Exams:</h3>
-
-<p>*Users can solve MCQ questions on the exam page.</p>
-<p>Upon submission, results are displayed with correct answers highlighted in green and incorrect answers in red.</p>
+<ul>
+  <li>Users can solve MCQ questions on the exam page.</li>
+  <li>Upon submission, results are displayed with correct answers highlighted in green and incorrect answers in red.</li>
+</ul>
 
 <h3>#Admin Panel:</h3>
-
-<p>*Only admins have the authority to add new questions to the database.</p>
+<ul>
+  <li>Only admins have the authority to add new questions to the database.</li>
+</ul>
 
 <h1>Technologies Used</h1>
 <h3>#Frontend:</h3>
-
-<p>*React</p>
-<p>*HTML/CSS</p>
+<ul>
+  <li>React</li>
+  <li>HTML/CSS</li>
+</ul>
 
 <h3>#Backend:</h3>
-
-<p>*Express</p>
-<p>*Node</p>
+<ul>
+  <li>Express</li>
+  <li>Node</li>
+</ul>
 
 <h3>#Database:</h3>
-
-<p>*MongoDB</p>
+<ul>
+  <li>MongoDB</li>
+</ul>
 
 <h3>#Security:</h3>
-
-<p>*bcrypt for password hashing</p>
-<p>*JSON Web Tokens (JWT) for authentication and authorization</p>
+<ul>
+  <li>bcrypt for password hashing</li>
+  <li>JSON Web Tokens (JWT) for authentication and authorization</li>
+</ul>
 
 <h1>Installation</h1>
 
 <h3>#Install backend dependencies</h3>
-<p>cd backend</p>
-<p>npm install</p>
+<ul>
+  <li>cd backend</li>
+  <li>npm install</li>
+</ul>
 
-<h3>#Install backend dependencies</h3
-<p>cd ../frontend</p>
-<p>npm install</p>>
+<h3>#Install backend dependencies</h3>
+<ul>
+  <li>cd ../frontend</li>
+  <li>npm install</li>
+</ul>
 
 <h3>#Start the backend server:</h3>
-<p>cd backend</p>
-<p>npm start</p>
+<ul>
+  <li>cd backend</li>
+  <li>npm start</li>
+</ul>
 
 <h3>#Start the frontend server:</h3>
-<p>cd ../frontend</p>
-<p>npm start</p>
+<ul>
+  <li>cd ../frontend</li>
+  <li>npm start</li>
+</ul>
 
 <h1>Usage</h1>
-<p>*Navigate to http://localhost:3000 to access the application.</p>
-<p>*Register as a new user or log in if you already have an account.</p>
-<p>*Explore subject pages and take MCQ exams.</p>
+<ul>
+  <li>Navigate to http://localhost:3000 to access the application. </li>
+  <li>Register as a new user or log in if you already have an account.</li>
+  <li>Explore subject pages and take MCQ exams.</li>
+</ul>
+
 
 
 
