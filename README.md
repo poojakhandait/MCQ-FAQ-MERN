@@ -47,3 +47,30 @@
 
 <p>*bcrypt for password hashing</p>
 <p>*JSON Web Tokens (JWT) for authentication and authorization</p>
+
+<h1>Installation</h1>
+
+<h3>Install backend dependencies</h3>
+<p>cd backend</p>
+<p>npm install</p>
+
+<h3>Install backend dependencies</h3
+<p>cd ../frontend</p>
+<p>npm install</p>>
+
+<h3>Start the backend server:</h3>
+<p>cd backend</p>
+<p>npm start</p>
+
+<h3>Start the frontend server:</h3>
+<p>cd ../frontend</p>
+<p>npm start</p>>
+
+<h1>Usage</h1>
+<p>*Navigate to http://localhost:3000 to access the application.</p>
+<p>*Register as a new user or log in if you already have an account.</p>
+<p>*Explore subject pages and take MCQ exams.</p>
+
+
+
+
